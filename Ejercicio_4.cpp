@@ -13,6 +13,9 @@ int main() {
    
     srand(time(NULL));
     int aleatorio = 1 + rand() % (50);
+
+    //ESTE BUCLE NO ES CORRECTO
+    
     while (  intento = 1,intento <= 3) {
         intento ++;
     cout << "Ingresa un numero: ";
